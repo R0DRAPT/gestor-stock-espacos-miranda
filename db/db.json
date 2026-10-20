@@ -4,56 +4,94 @@
   },
   "admin": [
     {
-      "email": "macedorodrigo63@gmail.com",
+      "email": "admin@example.pt",
       "username": "admin",
-      "password": "admin",
-      "chave": "Rodrigo",
+      "password": "admin123",
+      "chave": "demo",
       "id": 999
     }
   ],
   "users": [
     {
-      "email": "teste@gmail.com",
-      "username": "teste",
-      "password": "teste",
-      "id": 14
+      "email": "utilizador@example.pt",
+      "username": "utilizador",
+      "password": "teste123",
+      "id": 1
     }
   ],
   "Sofas": [
     {
-      "nome": "Sofá A",
-      "material": "Couro",
-      "dimensao": "400x100",
+      "nome": "Sofá Lisboa 3 lugares",
+      "material": "Tecido",
+      "dimensao": "220x95x85",
       "imagem": "sofaIdeal.jpg",
       "id": 1,
-      "preco": 7011,
+      "preco": 878.22,
       "componentes": [
         {
-          "id": 3,
-          "nome": "Braços",
-          "dimensao": "3x2",
-          "precofixo": 10,
-          "imagem": "bracosSofa.jpg"
+          "id": 1,
+          "nome": "Estrutura",
+          "dimensao": "210x90x40",
+          "precofixo": 420,
+          "imagem": "estruturaSofa.jpg"
         },
         {
           "id": 2,
           "nome": "Espuma",
-          "dimensao": "250x100",
-          "precofixo": 250,
+          "dimensao": "200x85",
+          "precofixo": 180,
           "imagem": "espumaSofa.jpg"
         },
         {
           "id": 3,
-          "nome": "Estrutura",
-          "dimensao": "300x200x50",
-          "precofixo": 1500,
-          "imagem": "estruturaSofa.jpg"
+          "nome": "Braços",
+          "dimensao": "25x85",
+          "precofixo": 90,
+          "imagem": "bracosSofa.jpg"
         },
         {
           "id": 4,
-          "nome": "Pes",
-          "dimensao": "2x4",
-          "precofixo": 10,
+          "nome": "Pés",
+          "dimensao": "5x12",
+          "precofixo": 24,
+          "imagem": "pesSofa.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Sofá Porto com chaise longue",
+      "material": "Veludo",
+      "dimensao": "280x160x88",
+      "imagem": "sofaIdeal.jpg",
+      "id": 2,
+      "preco": 1244.76,
+      "componentes": [
+        {
+          "id": 1,
+          "nome": "Estrutura",
+          "dimensao": "270x150x40",
+          "precofixo": 610,
+          "imagem": "estruturaSofa.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Espuma",
+          "dimensao": "260x150",
+          "precofixo": 260,
+          "imagem": "espumaSofa.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Braços",
+          "dimensao": "25x88",
+          "precofixo": 110,
+          "imagem": "bracosSofa.jpg"
+        },
+        {
+          "id": 4,
+          "nome": "Pés",
+          "dimensao": "5x12",
+          "precofixo": 32,
           "imagem": "pesSofa.jpg"
         }
       ]
@@ -61,18 +99,32 @@
   ],
   "Cadeiroes": [
     {
-      "nome": "teste",
-      "material": "teste",
-      "dimensao": "teste",
-      "preco": 3.69,
+      "nome": "Cadeirão Braga",
+      "material": "Bouclé",
+      "dimensao": "80x85x95",
       "imagem": "noImage.jpg",
       "id": 1,
+      "preco": 335.79,
       "componentes": [
         {
           "id": 1,
-          "nome": "teste",
-          "dimensao": "teste",
-          "precofixo": 2,
+          "nome": "Estrutura",
+          "dimensao": "75x80x40",
+          "precofixo": 160,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Estofo",
+          "dimensao": "80x85",
+          "precofixo": 95,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Pés",
+          "dimensao": "4x15",
+          "precofixo": 18,
           "imagem": "noImage.jpg"
         }
       ]
@@ -80,28 +132,75 @@
   ],
   "Consolas": [
     {
-      "nome": "teste",
-      "material": "teste",
-      "dimensao": "teste",
-      "preco": 3.69,
+      "nome": "Consola Nogueira",
+      "material": "Folha de nogueira",
+      "dimensao": "120x35x80",
       "imagem": "noImage.jpg",
-      "id": 2
+      "id": 1,
+      "preco": 252.15,
+      "componentes": [
+        {
+          "id": 1,
+          "nome": "Tampo",
+          "dimensao": "120x35",
+          "precofixo": 85,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Estrutura",
+          "dimensao": "115x30x78",
+          "precofixo": 120,
+          "imagem": "noImage.jpg"
+        }
+      ]
     }
   ],
   "PecasDecor": [
     {
-      "nome": "teste",
-      "material": "teste",
-      "dimensao": "teste",
-      "preco": 3.69,
+      "nome": "Espelho redondo",
+      "material": "Vidro e latão",
+      "dimensao": "Ø80",
       "imagem": "noImage.jpg",
       "id": 1,
+      "preco": 102.09,
       "componentes": [
         {
           "id": 1,
-          "nome": "teste",
-          "dimensao": "teste",
-          "precofixo": 2,
+          "nome": "Espelho",
+          "dimensao": "Ø76",
+          "precofixo": 45,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Moldura",
+          "dimensao": "Ø80",
+          "precofixo": 38,
+          "imagem": "noImage.jpg"
+        }
+      ]
+    },
+    {
+      "nome": "Candeeiro de pé",
+      "material": "Metal lacado",
+      "dimensao": "40x40x160",
+      "imagem": "noImage.jpg",
+      "id": 2,
+      "preco": 104.55,
+      "componentes": [
+        {
+          "id": 1,
+          "nome": "Base",
+          "dimensao": "40x40",
+          "precofixo": 30,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Haste e abajur",
+          "dimensao": "160",
+          "precofixo": 55,
           "imagem": "noImage.jpg"
         }
       ]
@@ -109,18 +208,25 @@
   ],
   "Cadeiras": [
     {
-      "nome": "teste",
-      "material": "teste",
-      "dimensao": "teste",
-      "preco": 3.69,
+      "nome": "Cadeira Minho",
+      "material": "Carvalho maciço",
+      "dimensao": "45x50x82",
       "imagem": "noImage.jpg",
       "id": 1,
+      "preco": 114.39,
       "componentes": [
         {
           "id": 1,
-          "nome": "teste",
-          "dimensao": "teste",
-          "precofixo": 2,
+          "nome": "Estrutura",
+          "dimensao": "45x50x82",
+          "precofixo": 65,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Assento estofado",
+          "dimensao": "42x42",
+          "precofixo": 28,
           "imagem": "noImage.jpg"
         }
       ]
@@ -128,18 +234,25 @@
   ],
   "Banquetas": [
     {
-      "nome": "teste",
-      "material": "teste",
-      "dimensao": "teste",
-      "preco": 3.69,
+      "nome": "Banqueta de bar Cávado",
+      "material": "Carvalho e metal",
+      "dimensao": "38x38x75",
       "imagem": "noImage.jpg",
       "id": 1,
+      "preco": 86.1,
       "componentes": [
         {
           "id": 1,
-          "nome": "teste",
-          "dimensao": "teste",
-          "precofixo": 2,
+          "nome": "Estrutura metálica",
+          "dimensao": "38x38x75",
+          "precofixo": 48,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Assento",
+          "dimensao": "Ø36",
+          "precofixo": 22,
           "imagem": "noImage.jpg"
         }
       ]
@@ -147,18 +260,32 @@
   ],
   "MesasCabeceira": [
     {
-      "nome": "teste",
-      "material": "teste",
-      "dimensao": "teste",
-      "preco": 3.69,
+      "nome": "Mesa de cabeceira Ave",
+      "material": "Lacado branco",
+      "dimensao": "50x40x55",
       "imagem": "noImage.jpg",
       "id": 1,
+      "preco": 143.91,
       "componentes": [
         {
           "id": 1,
-          "nome": "teste",
-          "dimensao": "teste",
-          "precofixo": 2,
+          "nome": "Corpo",
+          "dimensao": "50x40x45",
+          "precofixo": 70,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Gaveta",
+          "dimensao": "45x35x12",
+          "precofixo": 35,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Pés",
+          "dimensao": "3x10",
+          "precofixo": 12,
           "imagem": "noImage.jpg"
         }
       ]
@@ -166,18 +293,32 @@
   ],
   "Camas": [
     {
-      "nome": "teste",
-      "material": "teste",
-      "dimensao": "teste",
-      "preco": 3.69,
+      "nome": "Cama casal Gerês",
+      "material": "Folha de carvalho",
+      "dimensao": "170x210x110",
       "imagem": "noImage.jpg",
       "id": 1,
+      "preco": 750.3,
       "componentes": [
         {
           "id": 1,
-          "nome": "teste",
-          "dimensao": "teste",
-          "precofixo": 2,
+          "nome": "Cabeceira estofada",
+          "dimensao": "170x110",
+          "precofixo": 210,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Estrado",
+          "dimensao": "160x200",
+          "precofixo": 140,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 3,
+          "nome": "Estrutura",
+          "dimensao": "170x210x35",
+          "precofixo": 260,
           "imagem": "noImage.jpg"
         }
       ]
@@ -185,18 +326,25 @@
   ],
   "Mesas": [
     {
-      "nome": "teste",
-      "material": "teste",
-      "dimensao": "teste",
-      "preco": 3.69,
+      "nome": "Mesa de jantar Esposende",
+      "material": "Carvalho maciço",
+      "dimensao": "200x95x76",
       "imagem": "noImage.jpg",
       "id": 1,
+      "preco": 1734.3,
       "componentes": [
         {
           "id": 1,
-          "nome": "teste",
-          "dimensao": "teste",
-          "precofixo": 2,
+          "nome": "Tampo",
+          "dimensao": "200x95",
+          "precofixo": 390,
+          "imagem": "noImage.jpg"
+        },
+        {
+          "id": 2,
+          "nome": "Pernas",
+          "dimensao": "8x8x72",
+          "precofixo": 160,
           "imagem": "noImage.jpg"
         }
       ]
